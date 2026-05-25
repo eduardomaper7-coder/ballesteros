@@ -1,18 +1,20 @@
+import { Link } from 'react-router-dom'
+
 const posts = [
   {
     date: '1 abril, 2026',
-    title: 'Implantes dentales: cuándo son necesarios y qué ventajas tienen',
+    title: 'Implantes dentales en Arganzuela, Madrid',
     excerpt:
-      'Los implantes dentales ayudan a recuperar piezas perdidas y mejorar la funcionalidad de la boca. Te explicamos cuándo se recomiendan y qué beneficios ofrecen.',
+      'Descubre cómo los implantes dentales pueden ayudarte a recuperar tu sonrisa, mejorar la funcionalidad de tu boca y ganar confianza con un tratamiento duradero.',
     image:
       'https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1200&q=80',
-    href: '#',
+    href: '/blog/implantes-dentales-arganzuela',
   },
   {
     date: '1 abril, 2026',
     title: 'Limpieza dental profesional: por qué es importante hacerla',
     excerpt:
-      'Una limpieza dental ayuda a prevenir problemas de encías, caries y acumulación de sarro. Descubre cada cuánto conviene realizarla y por qué es clave para tu salud bucodental.',
+      'Una limpieza dental ayuda a prevenir problemas de encías, caries y acumulación de sarro.',
     image:
       'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80',
     href: '#',
@@ -21,7 +23,7 @@ const posts = [
     date: '25 marzo, 2026',
     title: 'Blanqueamiento dental: cómo funciona y qué debes saber',
     excerpt:
-      'El blanqueamiento dental puede mejorar la estética de tu sonrisa de forma segura si se realiza bajo supervisión profesional. Te contamos lo más importante antes de empezar.',
+      'Todo lo que necesitas saber antes de iniciar un tratamiento de blanqueamiento dental.',
     image:
       'https://images.unsplash.com/photo-1598257006626-48b0c252070d?auto=format&fit=crop&w=1200&q=80',
     href: '#',
@@ -30,12 +32,10 @@ const posts = [
 
 const BlogSection = () => {
   return (
-    <section className="bg-[#f5f5f3] py-20">
+    <section className="bg-blue-50 py-20">
       <div className="mx-auto max-w-7xl px-4">
-        
-        {/* Título */}
         <div className="mx-auto mb-14 max-w-3xl text-center">
-          <h2 className="text-3xl font-extrabold text-black sm:text-4xl">
+          <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl">
             Blog
           </h2>
 
@@ -44,15 +44,12 @@ const BlogSection = () => {
           </p>
         </div>
 
-        {/* Grid */}
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {posts.map((post, index) => (
             <article
               key={index}
-              className="overflow-hidden rounded-xl bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)]"
+              className="overflow-hidden rounded-xl bg-white shadow-[0_8px_24px_rgba(37,99,235,0.08)] transition hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)]"
             >
-              
-              {/* Imagen */}
               <div className="h-56 overflow-hidden">
                 <img
                   src={post.image}
@@ -61,11 +58,10 @@ const BlogSection = () => {
                 />
               </div>
 
-              {/* Contenido */}
               <div className="p-6">
                 <p className="text-sm text-neutral-500">📅 {post.date}</p>
 
-                <h3 className="mt-4 text-2xl font-extrabold leading-tight text-black">
+                <h3 className="mt-4 text-2xl font-extrabold leading-tight text-blue-800">
                   {post.title}
                 </h3>
 
@@ -74,19 +70,17 @@ const BlogSection = () => {
                 </p>
 
                 <div className="mt-6 flex justify-end">
-                  <a
-                    href={post.href}
-                    className="inline-flex items-center gap-2 text-lg font-medium text-[#E4B525] transition hover:text-black"
+                  <Link
+                    to={post.href}
+                    className="inline-flex items-center gap-2 text-lg font-medium text-blue-700 transition hover:text-blue-900"
                   >
                     Leer más <span className="text-2xl">›</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
-
             </article>
           ))}
         </div>
-
       </div>
     </section>
   )

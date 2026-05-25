@@ -14,7 +14,9 @@ import Location from './components/Location'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import AllTreatments from './components/AllTreatments'
+
 import Legal from './pages/Legal'
+import BlogImplantes from './pages/BlogImplantes'
 
 const Home = () => (
   <>
@@ -38,8 +40,6 @@ const Home = () => (
 function App() {
   return (
     <main className="bg-white text-black">
-
-      {/* 🔥 ESTO ES LO IMPORTANTE */}
       <ScrollToTop />
 
       <Routes>
@@ -51,6 +51,17 @@ function App() {
             <>
               <Navbar />
               <AllTreatments />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route
+          path="/blog/implantes-dentales-arganzuela"
+          element={
+            <>
+              <Navbar />
+              <BlogImplantes />
               <Footer />
             </>
           }
