@@ -10,7 +10,7 @@ const BlogImplantes = () => {
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight text-blue-900 sm:text-5xl">
-              Implantes dentales en Arganzuela, Madrid
+              Implantes dentales en Villaverde, Madrid
             </h1>
 
             <p className="mt-6 text-xl leading-9 text-neutral-700">
@@ -19,7 +19,7 @@ const BlogImplantes = () => {
             </p>
 
             <a
-              href="tel:911680037"
+              href="tel:913766036"
               className="mt-8 inline-flex rounded-xl bg-blue-800 px-8 py-4 font-bold text-white shadow-lg transition hover:bg-blue-900"
             >
               Solicitar valoración
@@ -29,7 +29,7 @@ const BlogImplantes = () => {
           <div className="overflow-hidden rounded-[32px] shadow-[0_20px_60px_rgba(37,99,235,0.18)]">
             <img
               src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1400&q=80"
-              alt="Implantes dentales en Dentopia"
+              alt="Implantes dentales en Clínica Dental Ballesteros"
               className="h-[420px] w-full object-cover"
             />
           </div>
@@ -118,12 +118,12 @@ const BlogImplantes = () => {
         </div>
       </section>
 
-      {/* Por qué Dentopia */}
+      {/* Por qué Ballesteros */}
       <section className="py-16">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 lg:grid-cols-2">
           <div>
             <h2 className="text-3xl font-extrabold text-blue-900 sm:text-4xl">
-              ¿Por qué elegir Dentopia?
+              ¿Por qué elegir Clínica Dental Ballesteros?
             </h2>
 
             <div className="mt-8 space-y-4">
@@ -132,7 +132,7 @@ const BlogImplantes = () => {
                 'Equipo especializado',
                 'Planificación digital',
                 'Tratamientos personalizados',
-                'Atención cercana en Arganzuela',
+                'Atención cercana en Villaverde',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <span className="flex h-7 w-7 items-center justify-center rounded-full bg-blue-700 text-sm font-bold text-white">
@@ -147,7 +147,7 @@ const BlogImplantes = () => {
           <div className="overflow-hidden rounded-[28px] shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1400&q=80"
-              alt="Equipo profesional Dentopia"
+              alt="Equipo profesional Clínica Dental Ballesteros"
               className="h-[380px] w-full object-cover"
             />
           </div>
@@ -162,12 +162,12 @@ const BlogImplantes = () => {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-9 text-white/85">
-            En Dentopia te ayudamos a recuperar funcionalidad, estética y
-            confianza.
+            En Clínica Dental Ballesteros te ayudamos a recuperar funcionalidad,
+            estética y confianza.
           </p>
 
           <a
-            href="tel:911680037"
+            href="tel:913766036"
             className="mt-8 inline-flex rounded-xl bg-blue-500 px-8 py-4 text-lg font-bold text-white transition hover:bg-blue-400"
           >
             Solicitar primera valoración

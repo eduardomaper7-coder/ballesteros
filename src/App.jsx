@@ -57,7 +57,7 @@ function App() {
         />
 
         <Route
-          path="/blog/implantes-dentales-arganzuela"
+          path="/blog/implantes-dentales-villaverde"
           element={
             <>
               <Navbar />

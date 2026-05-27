@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 const posts = [
   {
     date: '1 abril, 2026',
-    title: 'Implantes dentales en Arganzuela, Madrid',
+    title: 'Implantes dentales en Villaverde, Madrid',
     excerpt:
       'Descubre cómo los implantes dentales pueden ayudarte a recuperar tu sonrisa, mejorar la funcionalidad de tu boca y ganar confianza con un tratamiento duradero.',
     image:
       'https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1200&q=80',
-    href: '/blog/implantes-dentales-arganzuela',
+    href: '/blog/implantes-dentales-villaverde',
   },
   {
     date: '1 abril, 2026',

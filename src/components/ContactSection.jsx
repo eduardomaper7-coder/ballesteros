@@ -10,8 +10,8 @@ const ContactSection = () => {
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-neutral-600">
-            Estamos aquí para ayudarte. Contacta con Clínica Dental Dentopia
-            para reservar tu cita en Arganzuela.
+            Estamos aquí para ayudarte. Contacta con Clínica Dental Ballesteros
+            para reservar tu cita en Villaverde.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const ContactSection = () => {
             <div>
               <h3 className="text-xl font-bold text-blue-800">Dirección</h3>
               <p className="mt-2 text-lg text-neutral-600">
-                Paseo de las Delicias, 44, Arganzuela, 28045 Madrid
+                Villaverde, Madrid
               </p>
             </div>
           </div>
@@ -37,10 +37,10 @@ const ContactSection = () => {
             <div>
               <h3 className="text-xl font-bold text-blue-800">Teléfono</h3>
               <a
-                href="tel:911680037"
+                href="tel:913766036"
                 className="mt-2 block whitespace-nowrap text-lg text-neutral-600 transition hover:text-blue-700"
               >
-                911 68 00 37
+                913 76 60 36
               </a>
             </div>
           </div>
@@ -53,12 +53,12 @@ const ContactSection = () => {
             <div>
               <h3 className="text-xl font-bold text-blue-800">WhatsApp</h3>
               <a
-                href="https://wa.me/34660058377"
+                href="https://wa.me/34638710792"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 block text-lg text-neutral-600 transition hover:text-blue-700"
               >
-                +34 660 05 83 77
+                +34 638 710 792
               </a>
             </div>
           </div>
@@ -73,11 +73,11 @@ const ContactSection = () => {
 
               <div className="mt-4 space-y-4 text-base text-neutral-700 sm:text-lg">
                 {[
-                  ['Lunes', '10:30–14:00 · 16:00–20:00'],
-                  ['Martes', '10:30–14:00 · 16:00–20:00'],
-                  ['Miércoles', '10:30–14:00 · 16:00–20:00'],
-                  ['Jueves', '10:30–14:00 · 16:00–20:00'],
-                  ['Viernes', '10:30–14:00 · 16:00–20:00'],
+                  ['Lunes', '10:00–14:00 · 16:00–20:00'],
+                  ['Martes', '10:00–14:00 · 16:00–20:00'],
+                  ['Miércoles', '10:00–14:00 · 16:00–20:00'],
+                  ['Jueves', '10:00–14:00 · 16:00–20:00'],
+                  ['Viernes', '10:00–14:00 · 16:00–20:00'],
                   ['Sábado', 'Cerrado'],
                   ['Domingo', 'Cerrado'],
                 ].map(([day, hours]) => (

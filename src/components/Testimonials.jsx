@@ -1,17 +1,17 @@
 const reviews = [
   {
-    text: 'Anna es una excelente odontóloga, llevo años acudiendo a su consulta siempre que lo necesito y tanto sus servicios, como el trato recibido por ella y el personal de la clínica han sido excelentes. Totalmente recomendable.',
-    name: 'Juan S.',
-    time: 'Hace 1 año',
+    text: 'Excelente atención y un trato muy profesional. Me explicaron todo el tratamiento con detalle y el resultado ha sido perfecto.',
+    name: 'María G.',
+    time: 'Hace 2 meses',
   },
   {
-    text: 'Llevo yendo a esta clínica 20 años, creo que con eso es suficiente para decir que trabajan muy bien y solucionan tus problemas bucodentales sin dolor.',
-    name: 'Esther P.',
-    time: 'Hace 2 años',
+    text: 'Llevo años confiando en Clínica Dental Ballesteros. Siempre me atienden con cercanía y profesionalidad, totalmente recomendable.',
+    name: 'Carlos R.',
+    time: 'Hace 8 meses',
   },
   {
-    text: 'Excelente tanto en el trato como en el servicio, estoy encantada con ellos, son unos magnificos profesionales.',
-    name: 'Ivan A.',
+    text: 'Muy contenta con el servicio. El equipo transmite mucha confianza y hacen que cada visita sea cómoda y sin preocupaciones.',
+    name: 'Laura M.',
     time: 'Hace 1 mes',
   },
 ]
@@ -30,7 +30,7 @@ const Testimonials = () => {
           </div>
 
           <p className="mt-4 text-lg text-neutral-600">
-            Valoración 4.6 en Google Reviews
+            Valoración 4,3 en Google Reviews (50)
           </p>
         </div>
 

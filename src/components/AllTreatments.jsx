@@ -71,8 +71,7 @@ const AllTreatments = () => {
 
           <p className="mt-5 text-lg leading-8 text-neutral-700">
             Consulta nuestros tratamientos más habituales. Para recibir una
-            valoración personalizada, consulte con la doctora o contacte con
-            nuestra clínica.
+            valoración personalizada, contacte con Clínica Dental Ballesteros.
           </p>
         </div>
 
@@ -85,7 +84,7 @@ const AllTreatments = () => {
               <div className="h-48 overflow-hidden">
                 <img
                   src={treatment.image}
-                  alt={`${treatment.name} en Usera - Clínica Dental Dra. Anna Tavarone`}
+                  alt={`${treatment.name} en Villaverde - Clínica Dental Ballesteros`}
                   className="h-full w-full object-cover transition duration-500 hover:scale-105"
                   loading="lazy"
                 />
@@ -125,10 +124,10 @@ const AllTreatments = () => {
             no dude en consultar con nuestro equipo. Le atenderemos personalmente
             en nuestra clínica o llamando al{' '}
             <a
-              href="tel:914763069"
+              href="tel:913766036"
               className="inline-block whitespace-nowrap font-extrabold text-green-700 hover:underline"
             >
-              914 76 30 69
+              913 76 60 36
             </a>
             .
           </p>
@@ -142,7 +141,7 @@ const AllTreatments = () => {
             </a>
 
             <a
-              href="tel:914763069"
+              href="tel:913766036"
               className="rounded-xl border-2 border-green-700 px-8 py-4 text-lg font-bold text-green-700 transition hover:bg-green-700 hover:text-white"
             >
               Llamar ahora

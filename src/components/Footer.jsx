@@ -14,12 +14,12 @@ const Footer = () => {
                 CLÍNICA DENTAL
               </span>
               <span className="block text-blue-400 text-lg font-semibold">
-                Dentopia
+                Ballesteros
               </span>
             </div>
 
             <p className="max-w-2xl text-lg leading-relaxed text-white/90">
-              Clínica dental en Arganzuela especializada en tratamientos
+              Clínica dental en Villaverde especializada en tratamientos
               personalizados, odontología avanzada y atención cercana para cuidar
               tu salud bucodental y mejorar tu sonrisa.
             </p>
@@ -34,7 +34,9 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/clinica_dental_ballesteros/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="text-2xl text-blue-400 transition hover:text-white"
               >
@@ -57,25 +59,25 @@ const Footer = () => {
 
             <div className="mt-6 space-y-4 text-lg leading-relaxed">
               <p>
-                Paseo de las Delicias<br />
-                Arganzuela, Madrid
+                C. Oxígeno, 4<br />
+                Villaverde, Madrid
               </p>
 
               <p>
                 <a
-                  href="tel:911680037"
+                  href="tel:913766036"
                   className="whitespace-nowrap font-bold text-white transition hover:text-blue-400"
                 >
-                  911 68 00 37
+                  913 76 60 36
                 </a>
               </p>
 
               <p>
                 <a
-                  href="https://wa.me/34660058377"
+                  href="https://wa.me/34638710792"
                   className="text-blue-400 transition hover:text-white"
                 >
-                  WhatsApp: +34 660 05 83 77
+                  WhatsApp: +34 638 710 792
                 </a>
               </p>
             </div>
@@ -99,7 +101,7 @@ const Footer = () => {
         {/* Footer bottom */}
         <div className="mt-12 border-t border-white/15 pt-8 text-center">
           <p className="text-base text-white/80">
-            © 2026 Clínica Dental Dentopia. Todos los derechos reservados.
+            © 2026 Clínica Dental Ballesteros. Todos los derechos reservados.
           </p>
 
           <div className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-blue-400">

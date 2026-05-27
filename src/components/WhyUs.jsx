@@ -4,13 +4,13 @@ const slides = [
   {
     image:
       'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Interior moderno de Clínica Dental Dentopia en Arganzuela',
-    badge: 'Clínica dental en Arganzuela con tecnología avanzada',
+    alt: 'Interior moderno de Clínica Dental Ballesteros en Villaverde',
+    badge: 'Clínica dental en Villaverde con tecnología avanzada',
   },
   {
     image:
       'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Tratamiento dental en Clínica Dental Dentopia',
+    alt: 'Tratamiento dental en Clínica Dental Ballesteros',
     badge: 'Atención personalizada para cuidar tu sonrisa',
   },
 ]
@@ -31,7 +31,7 @@ const WhyUs = () => {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 lg:grid-cols-2">
         <div className="relative">
           <span className="absolute -left-10 top-0 hidden rotate-180 text-xs font-bold uppercase tracking-[0.4em] text-blue-700 lg:block [writing-mode:vertical-rl]">
-            Clínica Dental Dentopia
+            Clínica Dental Ballesteros
           </span>
 
           <div className="max-w-xl">
@@ -40,13 +40,13 @@ const WhyUs = () => {
             </span>
 
             <h2 className="mt-5 text-4xl font-extrabold leading-tight text-blue-800 sm:text-5xl">
-              ¿Por qué elegir Dentopia?
+              ¿Por qué elegir Clínica Dental Ballesteros?
             </h2>
 
             <p className="mt-6 text-lg leading-9 text-neutral-700">
-              En Clínica Dental Dentopia combinamos experiencia, tecnología y
+              En Clínica Dental Ballesteros combinamos experiencia, tecnología y
               cercanía para ofrecerte tratamientos dentales personalizados en
-              Arganzuela.
+              Villaverde.
             </p>
 
             <div className="mt-8 space-y-6">

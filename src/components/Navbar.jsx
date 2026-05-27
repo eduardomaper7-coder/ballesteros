@@ -4,12 +4,12 @@ const Navbar = () => {
       <div className="fixed top-0 z-50 w-full bg-blue-700 text-white">
         <div className="mx-auto flex max-w-7xl items-center justify-center px-3 py-1 text-center text-[11px] sm:text-sm">
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Paseo+de+las+Delicias+44+Arganzuela+28045+Madrid"
+            href="https://www.google.com/maps/search/?api=1&query=Calle+Oxigeno+4+Villaverde+28021+Madrid"
             target="_blank"
             rel="noopener noreferrer"
             className="truncate hover:underline"
           >
-            📍 Paseo de las Delicias, 44, Arganzuela, 28045 Madrid
+            📍 C. Oxígeno, 4, Villaverde, 28021 Madrid
           </a>
         </div>
       </div>
@@ -22,14 +22,14 @@ const Navbar = () => {
                 Clínica Dental
               </span>
               <span className="block text-[11px] font-semibold text-blue-600 md:hidden">
-                Dentopia
+                Ballesteros
               </span>
 
               <span className="hidden text-sm font-extrabold text-blue-800 md:block md:text-xl">
                 CLÍNICA DENTAL
               </span>
               <span className="hidden text-sm font-semibold text-blue-600 md:block">
-                Dentopia
+                Ballesteros
               </span>
             </div>
           </a>
@@ -65,10 +65,10 @@ const Navbar = () => {
           </nav>
 
           <a
-            href="tel:911680037"
+            href="tel:913766036"
             className="whitespace-nowrap rounded-lg bg-blue-600 px-3 py-2 text-xs font-bold text-white transition hover:bg-blue-700 md:px-5 md:py-2.5 md:text-sm"
           >
-            📞 <span className="hidden md:inline">Llama al</span> 911 68 00 37
+            📞 <span className="hidden md:inline">Llama al</span> 913 76 60 36
           </a>
         </div>
       </header>

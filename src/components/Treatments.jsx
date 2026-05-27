@@ -37,13 +37,13 @@ const Treatments = () => {
           </span>
 
           <h2 className="mt-3 text-3xl font-extrabold text-blue-800 sm:text-4xl">
-            Servicios dentales en Arganzuela
+            Servicios dentales en Villaverde
           </h2>
 
           <p className="mx-auto mt-4 max-w-3xl text-lg text-neutral-600 sm:text-xl">
-            En Clínica Dental Dentopia ofrecemos tratamientos avanzados para
+            En Clínica Dental Ballesteros ofrecemos tratamientos avanzados para
             cuidar tu salud bucodental con atención personalizada y tecnología
-            de última generación.
+            de última generación en Villaverde.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const Treatments = () => {
               <div className="h-56 w-full sm:h-auto sm:w-[40%]">
                 <img
                   src={service.image}
-                  alt={`${service.title} en Arganzuela - Clínica Dental Dentopia`}
+                  alt={`${service.title} en Villaverde - Clínica Dental Ballesteros`}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />

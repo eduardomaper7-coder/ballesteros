@@ -10,20 +10,20 @@ const Location = () => {
 
         {/* Dirección */}
         <p className="mt-6 text-lg font-medium text-neutral-700">
-          Paseo de las Delicias, 44, Arganzuela, 28045 Madrid
+          C. Oxígeno, 4, Villaverde, 28021 Madrid
         </p>
 
         {/* Mapa */}
         <div className="mt-10 overflow-hidden rounded-2xl shadow-[0_10px_40px_rgba(37,99,235,0.1)]">
           <iframe
-            src="https://www.google.com/maps?q=Paseo%20de%20las%20Delicias%2044%2C%20Arganzuela%2C%2028045%20Madrid&output=embed"
+            src="https://www.google.com/maps?q=C.%20Ox%C3%ADgeno%204%2C%20Villaverde%2C%2028021%20Madrid&output=embed"
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Ubicación Clínica Dental Dentopia"
+            title="Ubicación Clínica Dental Ballesteros"
           ></iframe>
         </div>
 

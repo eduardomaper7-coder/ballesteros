@@ -1,7 +1,7 @@
 const Hero = () => {
-  const whatsappNumber = '34660058377'
+  const whatsappNumber = '34638710792'
   const whatsappMessage = encodeURIComponent(
-    'Hola, quiero pedir cita en Clínica Dental Dentopia.'
+    'Hola, quiero pedir cita en Clínica Dental Ballesteros.'
   )
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
@@ -25,11 +25,11 @@ const Hero = () => {
       <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center px-4 pb-12 pt-24 text-center sm:pb-16 sm:pt-28">
         <div className="mb-4 flex flex-col items-center sm:mb-6">
           <span className="text-lg font-light tracking-widest text-white/85 sm:text-2xl">
-            CLÍNICA DENTAL EN ARGANZUELA
+            CLÍNICA DENTAL EN VILLAVERDE
           </span>
 
           <span className="text-2xl font-extrabold tracking-wide text-white sm:text-3xl md:text-4xl">
-            Clínica Dental Dentopia
+            Clínica Dental Ballesteros
           </span>
         </div>
 
@@ -38,9 +38,9 @@ const Hero = () => {
         </h1>
 
         <p className="mt-6 hidden max-w-3xl text-lg leading-9 text-white/90 sm:block sm:text-xl">
-          En Clínica Dental Dentopia cuidamos tu salud bucodental con
+          En Clínica Dental Ballesteros cuidamos tu salud bucodental con
           tratamientos personalizados, tecnología avanzada y atención cercana en
-          Arganzuela.
+          Villaverde.
         </p>
 
         <div className="mt-6 flex flex-col gap-2 sm:mt-8 sm:flex-row sm:gap-3">
@@ -71,9 +71,9 @@ const Hero = () => {
           </a>
 
           <a
-            href="tel:911680037"
+            href="tel:913766036"
             className="flex w-full items-center justify-center rounded-xl bg-white px-6 py-4 text-base font-extrabold text-blue-700 shadow-xl transition hover:bg-blue-50 sm:w-auto sm:px-8 sm:text-lg whitespace-nowrap"
-            aria-label="Llamar a Clínica Dental Dentopia"
+            aria-label="Llamar a Clínica Dental Ballesteros"
           >
             Llamar ahora
           </a>

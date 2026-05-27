@@ -8,7 +8,7 @@ const FeaturedBox = () => {
           <div className="h-[260px] w-full lg:h-[520px] lg:w-[62%]">
             <img
               src="/clinica-dental.jpg"
-              alt="Clínica Dental Dentopia en Arganzuela"
+              alt="Clínica Dental Ballesteros en Villaverde"
               className="h-full w-full object-cover"
             />
           </div>
@@ -23,18 +23,18 @@ const FeaturedBox = () => {
               </h2>
 
               <p className="mt-4 text-sm leading-7 text-neutral-600 sm:text-lg">
-                En Clínica Dental Dentopia estudiamos tu caso de forma
+                En Clínica Dental Ballesteros estudiamos tu caso de forma
                 individual para ofrecerte tratamientos dentales adaptados a tus
                 necesidades, cuidando tu salud bucodental y la estética de tu
-                sonrisa en Arganzuela.
+                sonrisa en Villaverde.
               </p>
 
               <div className="mt-6">
                 <a
-                  href="tel:911680037"
+                  href="tel:913766036"
                   className="inline-flex rounded-xl bg-blue-700 px-6 py-3 text-sm font-bold text-white transition hover:bg-blue-800 sm:px-7 sm:py-4 sm:text-base"
                 >
-                  Pide cita llamando al 911 68 00 37
+                  Pide cita llamando al 913 76 60 36
                 </a>
               </div>
 

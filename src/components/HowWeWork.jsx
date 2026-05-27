@@ -31,12 +31,12 @@ const HowWeWork = () => {
         {/* Título */}
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl">
-            ¿Cómo trabajamos en Dentopia?
+            ¿Cómo trabajamos en Clínica Dental Ballesteros?
           </h2>
 
           <p className="mt-4 text-neutral-600">
             Nuestro proceso está diseñado para cuidar tu salud bucodental desde
-            la primera visita en Arganzuela
+            la primera visita en Villaverde
           </p>
         </div>
 
